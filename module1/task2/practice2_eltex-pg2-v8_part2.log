@@ -1,0 +1,992 @@
+Script started on 2025-10-29 14:38:35+07:00 [TERM="xterm" TTY="/dev/pts/117" COLUMNS="80" LINES="24"]
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:38>~>find /var/log/ -name ""a"u"t"h"."l"o"g" -exec awk  '{print $5, $0}' {} \;\ \ | sed ''s'/'\'['[']'0]'-]'9]'*'\']'/'/'g' \ sort -k1.,1
+[?2004lsed: invalid option -- 'k'
+find: paths must precede expression: ` '
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:40>~>find /var/log -name "auth.log" -exec awk '{print $5, $0}' {} \; \ | sed 's/\[[0-9]*\]//g' \ sort -k1,1exit
+script >(sed 's/\x1B\[[0-9;]*[a-zA-Z]//g' > practice2_eltex-pg2-v8_part2.log) (sed 's/\x1B\[[0-9;]*[a-zA-Z]//g'[1@ (sed 's/\x1B\[[0-9;]*[a-zA-Z]//g' exit
+find /var/log -name "auth.log" -exec awk '{print $5, $0}' {} \; \ | sed 's/\[[0-9]*\]//g' \ sort -k1,1
+find /var/log -name "auth.log" -exec awk '{print $5, $0}' {} \; \ | sed 's/\[[0-9]*\]//g' \ sort -k1,1[1@|[1@ 
+[?2004lfind: sed: can't read  : No such file or directory
+paths must precede expression: ` '
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:42>~>find /var/log -name "auth.log" -exec awk '{print $5, $0}' {} \; \ | sed 's/\[[0-9]*\]//g' \ | sort 
+find /var/logeltex-pg2-v8@eltex-2025-autumn-14:42>~>find /var/log -name ""a"u"t"h"."l"o"g" -exec awk ''{'}'p}'r}'i}'n}'t}' }'$}'5}',}'  }'$}'6}',}' }'$}'7}',}' }'$}'8}',}' }'$}'9}' []{} \; |sed sed ''s'/'\'['[']'0]'-]'9]'*'\']'/'/'g' | sort
+[?2004lfind: ‘/var/log/private’: Permission denied
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:48>~>find /var/log -name "auth.log" -exec awk '{print $5, $6, $7, $8, $9}' {} \; | sed 's/\[[0-9]*\]//g' | sort0}' {} \; \ | sed 's/\[[0-9]*\]//g' | sort 6, $7, $8, $9}' {} \; | sed 's/\[[0-9]*\]//g' | sortsfind /var/log -name "auth.log" -exec awk '{print $5, $[1@6ufind /var/log -name "auth.log" -exec awk '{print $5, [1@$dfind /var/log -name "auth.log" -exec awk '{print $5,[1@ ofind /var/log -name "auth.log" -exec awk '{print $5[1@, find /var/log -name "auth.log" -exec awk '{print $[1@5
+
+[?2004lsudo: unable to resolve host eltex-2025-autumn: Name or service not known
+[sudo] password for eltex-pg2-v8: 
+Sorry, try again.
+[sudo] password for eltex-pg2-v8: 
+eltex-pg2-v8 is not in the sudoers file.
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:49>~>cd /vaer/log
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-14:50>log>find -name ""a"u"t"h"."l"o"g" -exec awk ''{'}'p}'r}'i}'n}'t}' }'$}'5}',}' }'$}'0}' {}  \; | sed ''a's'''s'/'\'[']'[]']'0]]'-]]'9]]'*]'/'/'g' \ |sort sort
+[?2004lsed: can't read  : No such file or directory
+find: ‘./private’: Permission denied
+[?2004heltex-pg2-v8@eltex-2025-autumn-14:51>log>eltex-pg2-v8@eltex-2025-autumn-14:51>log>find -name ""a"u"t"h"."l"o"g" -type f -exec awk ''{'}'p}'r}'i}'n}'t}' }'$}'2}' ,}' }'$}'3}',}' }'s}'u}'b}'s}'t}'r}'(}')}'$)}'0)}',)}' )}'i)}'n)}'d)}'e)}'x)}'()}')}'%))}'))}'$))}'0))}',))}'$))}'4))}' {} + | sed ''s'/'\'{''[']'[]']'0]]'-]]'9]]'*]'\]'/'/' | sort
+[?2004lfind: ‘./private’: Permission denied
+[?2004heltex-pg2-v8@eltex-2025-autumn-15:02>log>cd ~
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-15:02>~>cd ~find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sort
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-15:02>~>find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortcd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortexec awk '{print $5, $0}' {} \; | sed 's/\[[0-9]*]//g' \type f -exec awk '{print $2, $3,[31@ substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//'cd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortcd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortcd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortcd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortexec awk '{print $5, $0}' {} \; | sed 's/\[[0-9]*]//g' \cd /var/log
+find -name "auth.log" -exec awk '{print $5, $0}' {} \; | sed 's/\[[0-9]*]//g' \ | sorttype f -exec awk '{print $2, $3,[31@ substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//'cd ~
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sort
+ssh roort@172.16.9.1208
+[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-55-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct 29 08:05:41 AM UTC 2025
+
+  System load:  0.05               Processes:              110
+  Usage of /:   41.4% of 14.66GB   Users logged in:        0
+  Memory usage: 10%                IPv4 address for ens18: 172.16.9.208
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+79 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+*** System restart required ***
+Руслан Пономарев
+17:02 28.10.2025
+Last login: Tue Oct 28 19:46:55 2025 from 172.16.8.4
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# logouts -aogoutls -a
+[?2004l.              .bashrc     etc_backup.7z    etc_backup.tar.bz2     .lesshst  .ssh
+..             .cache      etc_backup_7zip  etc_backup.tar.gz      .local    .viminfo
+.bash_history  etc_backup  etc_backup_gzip  etc_backup_upd.tar.gz  .profile
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name ""a"u"t"h"."l"o"g" -type f -exec aewk ""''{'}'p}'r}'i}'n}'t}' }'$}'2}',}' }'$}'3}',}' }'s}'u}'b}'s}' ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# t}']0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# r}'(}')}'$)}'0)}',)}' )}'i)}'n)}'d)}'e)}'x)}'()}')}'$))}'0))}',))}'$))}'4))}' {} + | sed ''s'?'|'''/'\'[']'[]']'0]]'-]]'9]]'*]'\]'/'/' |sort sort
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# аштвfind -name ""a"u"t"h"."l"o"g" -type f
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ls -la /var/log/auth.log
+[?2004l-rw-r----- 1 syslog adm 178829 Oct 29 08:05 /var/log/auth.log
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ls -la /var/log/auth.logfind -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortls -a
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sort[1@5[1@6[1@\[1@;
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name "auth.log" -type f -exec awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//' | sort[1@ sawk '{print $[1@5]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# eawk '{print [1@$]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# dawk '{print[1@ ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~#  awk '{prin[1@t]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 'awk '{pri[1@n]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 'awk '{pr[1@i]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# s'awk '{p[1@r]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# /'awk '{[1@p]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# \'awk '[1@{]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ['awk [1@']0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]'awk[1@ ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# []'aw[1@k]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]'a[1@w]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 0]]'[1@a]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# -]][1@']0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 9][1@][1@*[1@\[1@/[1@/[1@g[1@ [1@{[1@}[1@ [1@\[1@;[1@ [1@|[1@ 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name "auth.log" -type f -exec sed 's/\[[0-9]*\]//g' {} \; | awk '{print $5, substr($0, index($0,$6))}' | sort  | uniq -c | sort -rm
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name "auth.log" -type f -exec sed 's/\[[0-9]*\]//g' {} \; | awk '{print $5, substr($0, index($0,$6))}' | sort | uniq -c | sort -rmawk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//ls -la /var/log/auth.log
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortls -a
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sortls -a
+ogouts -aexitsudo diff /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd | head -5exit
+sudo diff /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd | head -5-u /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# cd ~
+ls -acd ~sudo diff /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# -u /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# /root/etc_backup_gzip/etc_backup/motd /root/etc_backup_7zip/etc_backup/motd | head -5exit
+ls -a^C[?2004l[?2004h[?2004l
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ^V]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ^Vsed ''s'/'\'[']'[]']'0]]'-]]'9]]'*]'/]']'\]'/'/'g'find -name "auth.log" -type f -exec sed 's/\[[0-9]*\]//g' {} \; | awk '{print $5, substr($0, index($0,$6))}' | sort | uniq -c | sort -rm
+awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//[1@g
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name "auth.log" -type f -exec awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//g' | sort
+find -name auth.log
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name auth.log""auth.log" tu-type f
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# find -name "auth.log" -type fauth.log"auth.log" -type f -exec awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//g' | sortsed 's/\[[0-9]*\]//g' {} \; | awk '{print $5, substr($0, index($0,$6))}' | sort | uniq -c | sort -rm
+awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//ls -la /var/log/auth.log
+find -name "auth.log" -type f -exec awk '{print $2, $3, substr($0, index($0,$4))}' {} + | sed 's/\[[0-9]*\]//' | sort
+ls -la /var/log/auth.logfind -name "auth.log" -type f -exec awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//' | sortsed 's/\[[0-9][1@*\]//g' {} \; | awk '{print $5, substr($0, index($0,$6))} | uniq -c | sort -rm]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# awk '{print $5, substr($0, index($0,$6))}' {} \; | sed 's/\[[0-9]*\]//g' | sort
+auth.log
+"auth.log" -type ffind -name "auth.log" -type f]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# for user in $()g)r)e)p) )')')/')u')s')r')/')b')i')n')/')n')o')l')o')g')i')n') )/)e)t)c)/)p)a)s)s)w)d) )|) )a)w)k) )-)F):) )') ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# '){')}')p}')r}')i}')n}')t}') }')$}')1}'); do groups $user; done
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# clear
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# awk -F: ''$'7' '='=' '"'"'/"'u"'s"'r"'/"'s"'b"'i"'n"'"'"'"'"'s"'b"'i"'n"'/"'n"'o"'l"'o"'g"'i"'n"'clearfor user in $(grep '/usr/bin/nologin' /etc/passwd | awk -F: '{print $1}'); do groups $user; donesbin/nologin' /etc/passwd[1@ ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+
+[?2004ldaemon : daemon
+bin : bin
+sys : sys
+games : games
+man : man
+lp : lp
+mail : mail
+news : news
+uucp : uucp
+proxy : proxy
+www-data : www-data
+backup : backup
+list : list
+irc : irc
+_apt : nogroup
+nobody : nogroup
+systemd-network : systemd-network
+systemd-timesync : systemd-timesync
+messagebus : messagebus
+systemd-resolve : systemd-resolve
+polkitd : polkitd
+syslog : syslog adm
+uuidd : uuidd
+tcpdump : tcpdump
+landscape : landscape
+fwupd-refresh : fwupd-refresh
+usbmux : plugdev
+sshd : nogroup
+user3 : user3 users group
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# clear
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# dmesg | grep -i kernel
+[?2004l[    0.000000] KERNEL supported cpus:
+[    0.044851] Booting paravirtualized kernel on KVM
+[    0.045785] Kernel command line: BOOT_IMAGE=/vmlinuz-6.8.0-55-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+[    0.045816] Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-6.8.0-55-generic", will be passed to user space.
+[    0.096714] Memory: 3933488K/4193760K available (22528K kernel code, 4443K rwdata, 14344K rodata, 4988K init, 4716K bss, 260012K reserved, 0K cma-reserved)
+[    0.254806] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+[    0.254865] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.254909] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.487156] Loaded X.509 cert 'Build time autogenerated kernel key: e0bedf6fa049a1e09bd65ebab3904f14cdd5bc68'
+[    0.490583] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[    0.641601] Loaded X.509 cert 'Build time autogenerated kernel key: e0bedf6fa049a1e09bd65ebab3904f14cdd5bc68'
+[    0.661789] Freeing unused kernel image (initmem) memory: 4988K
+[    0.662571] Write protecting the kernel read-only data: 38912k
+[    0.663790] Freeing unused kernel image (rodata/data gap) memory: 2040K
+[    6.945064] systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+[    6.957135] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[    6.960770] systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+[    6.989608] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+[    6.994036] systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+[    6.998681] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[    7.006308] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[    7.013938] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+[    7.017837] systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+[    7.024176] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[    7.029844] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[    7.037924] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+[    7.038570] systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+[    7.043078] systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+[    7.047904] systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# clear
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# sed -n ''$'=' /var/log/kern/loglog.log
+[?2004l33
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# awk ''/'^'C'o'm'm'a'n'd'l'i'n'e'/' '{'}'c}'m}'d}'=}'$}'0}' '/'^'S't'a'r't'-'D'a't'e'/' '{'}'s}'t}'a}'r}'t}'=}'$}'0}' '/'^'E'n'd'-'D'a' ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# t'e'/' '{'}'e}'n}'d}' }'}'=}'$}'0}';}' }'p}'r}'i}'n}'t}' }'"}'"}'C"}'o"}'m"}'m"}'a"}'n"}'d"}'l"}'i"}'n"}'e"}':"}' "}' }'c}'m}'d}' }'"}'"}'\"}'n"}'S"}'t"}'a"}'r"}'t"}'-"}'D"}'a"}'t"}'e"}':"}' "}' }'s}'t}'a}'r}'t}' }'"}'"}'\"}'n"}'E"}'n"}'d"}'-"}'D"}'A"}'t"}'e"}'te"}'ate"}':"}' "}' }'e}'n}'d}' }'"}'"}'\"}'n"}' /var/lo g/apt/history.log
+[?2004lCommandline: Commandline: apt-get install --reinstall apt
+Start-Date: Start-Date: 2025-02-16  20:51:22
+End-Date: End-Date: 2025-02-16  20:51:24
+
+Commandline: Commandline: apt-get install --reinstall base-files
+Start-Date: Start-Date: 2025-02-16  20:51:26
+End-Date: End-Date: 2025-02-16  20:51:28
+
+Commandline: Commandline: apt-get install --reinstall base-passwd
+Start-Date: Start-Date: 2025-02-16  20:51:31
+End-Date: End-Date: 2025-02-16  20:51:32
+
+Commandline: Commandline: apt-get install --reinstall bash
+Start-Date: Start-Date: 2025-02-16  20:51:35
+End-Date: End-Date: 2025-02-16  20:51:37
+
+Commandline: Commandline: apt-get install --reinstall bsdutils
+Start-Date: Start-Date: 2025-02-16  20:51:39
+End-Date: End-Date: 2025-02-16  20:51:41
+
+Commandline: Commandline: apt-get install --reinstall coreutils
+Start-Date: Start-Date: 2025-02-16  20:51:44
+End-Date: End-Date: 2025-02-16  20:51:45
+
+Commandline: Commandline: apt-get install --reinstall dash
+Start-Date: Start-Date: 2025-02-16  20:51:48
+End-Date: End-Date: 2025-02-16  20:51:49
+
+Commandline: Commandline: apt-get install --reinstall debconf
+Start-Date: Start-Date: 2025-02-16  20:51:52
+End-Date: End-Date: 2025-02-16  20:51:53
+
+Commandline: Commandline: apt-get install --reinstall debianutils
+Start-Date: Start-Date: 2025-02-16  20:51:56
+End-Date: End-Date: 2025-02-16  20:51:58
+
+Commandline: Commandline: apt-get install --reinstall diffutils
+Start-Date: Start-Date: 2025-02-16  20:52:00
+End-Date: End-Date: 2025-02-16  20:52:02
+
+Commandline: Commandline: apt-get install --reinstall dpkg
+Start-Date: Start-Date: 2025-02-16  20:52:04
+End-Date: End-Date: 2025-02-16  20:52:06
+
+Commandline: Commandline: apt-get install --reinstall e2fsprogs
+Start-Date: Start-Date: 2025-02-16  20:52:09
+End-Date: End-Date: 2025-02-16  20:52:10
+
+Commandline: Commandline: apt-get install --reinstall findutils
+Start-Date: Start-Date: 2025-02-16  20:52:13
+End-Date: End-Date: 2025-02-16  20:52:14
+
+Commandline: Commandline: apt-get install --reinstall gcc-14-base:amd64
+Start-Date: Start-Date: 2025-02-16  20:52:17
+End-Date: End-Date: 2025-02-16  20:52:18
+
+Commandline: Commandline: apt-get install --reinstall gpgv
+Start-Date: Start-Date: 2025-02-16  20:52:21
+End-Date: End-Date: 2025-02-16  20:52:23
+
+Commandline: Commandline: apt-get install --reinstall grep
+Start-Date: Start-Date: 2025-02-16  20:52:25
+End-Date: End-Date: 2025-02-16  20:52:27
+
+Commandline: Commandline: apt-get install --reinstall gzip
+Start-Date: Start-Date: 2025-02-16  20:52:29
+End-Date: End-Date: 2025-02-16  20:52:31
+
+Commandline: Commandline: apt-get install --reinstall hostname
+Start-Date: Start-Date: 2025-02-16  20:52:34
+End-Date: End-Date: 2025-02-16  20:52:35
+
+Commandline: Commandline: apt-get install --reinstall init-system-helpers
+Start-Date: Start-Date: 2025-02-16  20:52:38
+End-Date: End-Date: 2025-02-16  20:52:39
+
+Commandline: Commandline: apt-get install --reinstall libacl1:amd64
+Start-Date: Start-Date: 2025-02-16  20:52:42
+End-Date: End-Date: 2025-02-16  20:52:43
+
+Commandline: Commandline: apt-get install --reinstall libapt-pkg6.0t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:52:46
+End-Date: End-Date: 2025-02-16  20:52:47
+
+Commandline: Commandline: apt-get install --reinstall libassuan0:amd64
+Start-Date: Start-Date: 2025-02-16  20:52:50
+End-Date: End-Date: 2025-02-16  20:52:51
+
+Commandline: Commandline: apt-get install --reinstall libattr1:amd64
+Start-Date: Start-Date: 2025-02-16  20:52:54
+End-Date: End-Date: 2025-02-16  20:52:56
+
+Commandline: Commandline: apt-get install --reinstall libaudit-common
+Start-Date: Start-Date: 2025-02-16  20:52:58
+End-Date: End-Date: 2025-02-16  20:53:00
+
+Commandline: Commandline: apt-get install --reinstall libaudit1:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:02
+End-Date: End-Date: 2025-02-16  20:53:04
+
+Commandline: Commandline: apt-get install --reinstall libblkid1:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:06
+End-Date: End-Date: 2025-02-16  20:53:08
+
+Commandline: Commandline: apt-get install --reinstall libbz2-1.0:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:11
+End-Date: End-Date: 2025-02-16  20:53:12
+
+Commandline: Commandline: apt-get install --reinstall libc-bin
+Start-Date: Start-Date: 2025-02-16  20:53:15
+End-Date: End-Date: 2025-02-16  20:53:17
+
+Commandline: Commandline: apt-get install --reinstall libc6:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:19
+End-Date: End-Date: 2025-02-16  20:53:22
+
+Commandline: Commandline: apt-get install --reinstall libcap-ng0:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:25
+End-Date: End-Date: 2025-02-16  20:53:26
+
+Commandline: Commandline: apt-get install --reinstall libcap2:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:29
+End-Date: End-Date: 2025-02-16  20:53:30
+
+Commandline: Commandline: apt-get install --reinstall libcom-err2:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:33
+End-Date: End-Date: 2025-02-16  20:53:34
+
+Commandline: Commandline: apt-get install --reinstall libcrypt1:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:37
+End-Date: End-Date: 2025-02-16  20:53:38
+
+Commandline: Commandline: apt-get install --reinstall libdebconfclient0:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:41
+End-Date: End-Date: 2025-02-16  20:53:42
+
+Commandline: Commandline: apt-get install --reinstall libext2fs2t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:45
+End-Date: End-Date: 2025-02-16  20:53:46
+
+Commandline: Commandline: apt-get install --reinstall libffi8:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:49
+End-Date: End-Date: 2025-02-16  20:53:50
+
+Commandline: Commandline: apt-get install --reinstall libgcc-s1:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:53
+End-Date: End-Date: 2025-02-16  20:53:54
+
+Commandline: Commandline: apt-get install --reinstall libgcrypt20:amd64
+Start-Date: Start-Date: 2025-02-16  20:53:57
+End-Date: End-Date: 2025-02-16  20:53:59
+
+Commandline: Commandline: apt-get install --reinstall libgmp10:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:01
+End-Date: End-Date: 2025-02-16  20:54:03
+
+Commandline: Commandline: apt-get install --reinstall libgnutls30t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:05
+End-Date: End-Date: 2025-02-16  20:54:07
+
+Commandline: Commandline: apt-get install --reinstall libgpg-error0:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:10
+End-Date: End-Date: 2025-02-16  20:54:11
+
+Commandline: Commandline: apt-get install --reinstall libhogweed6t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:14
+End-Date: End-Date: 2025-02-16  20:54:15
+
+Commandline: Commandline: apt-get install --reinstall libidn2-0:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:18
+End-Date: End-Date: 2025-02-16  20:54:19
+
+Commandline: Commandline: apt-get install --reinstall liblz4-1:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:22
+End-Date: End-Date: 2025-02-16  20:54:23
+
+Commandline: Commandline: apt-get install --reinstall liblzma5:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:26
+End-Date: End-Date: 2025-02-16  20:54:27
+
+Commandline: Commandline: apt-get install --reinstall libmd0:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:30
+End-Date: End-Date: 2025-02-16  20:54:32
+
+Commandline: Commandline: apt-get install --reinstall libmount1:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:34
+End-Date: End-Date: 2025-02-16  20:54:36
+
+Commandline: Commandline: apt-get install --reinstall libncursesw6:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:38
+End-Date: End-Date: 2025-02-16  20:54:39
+
+Commandline: Commandline: apt-get install --reinstall libnettle8t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:42
+End-Date: End-Date: 2025-02-16  20:54:43
+
+Commandline: Commandline: apt-get install --reinstall libnpth0t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:46
+End-Date: End-Date: 2025-02-16  20:54:48
+
+Commandline: Commandline: apt-get install --reinstall libp11-kit0:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:50
+End-Date: End-Date: 2025-02-16  20:54:52
+
+Commandline: Commandline: apt-get install --reinstall libpam-modules:amd64
+Start-Date: Start-Date: 2025-02-16  20:54:54
+End-Date: End-Date: 2025-02-16  20:54:56
+
+Commandline: Commandline: apt-get install --reinstall libpam-modules-bin
+Start-Date: Start-Date: 2025-02-16  20:54:58
+End-Date: End-Date: 2025-02-16  20:55:00
+
+Commandline: Commandline: apt-get install --reinstall libpam-runtime
+Start-Date: Start-Date: 2025-02-16  20:55:03
+End-Date: End-Date: 2025-02-16  20:55:04
+
+Commandline: Commandline: apt-get install --reinstall libpam0g:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:07
+End-Date: End-Date: 2025-02-16  20:55:08
+
+Commandline: Commandline: apt-get install --reinstall libpcre2-8-0:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:11
+End-Date: End-Date: 2025-02-16  20:55:12
+
+Commandline: Commandline: apt-get install --reinstall libproc2-0:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:15
+End-Date: End-Date: 2025-02-16  20:55:16
+
+Commandline: Commandline: apt-get install --reinstall libseccomp2:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:19
+End-Date: End-Date: 2025-02-16  20:55:20
+
+Commandline: Commandline: apt-get install --reinstall libselinux1:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:23
+End-Date: End-Date: 2025-02-16  20:55:24
+
+Commandline: Commandline: apt-get install --reinstall libsemanage-common
+Start-Date: Start-Date: 2025-02-16  20:55:27
+End-Date: End-Date: 2025-02-16  20:55:28
+
+Commandline: Commandline: apt-get install --reinstall libsemanage2:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:31
+End-Date: End-Date: 2025-02-16  20:55:32
+
+Commandline: Commandline: apt-get install --reinstall libsepol2:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:35
+End-Date: End-Date: 2025-02-16  20:55:36
+
+Commandline: Commandline: apt-get install --reinstall libsmartcols1:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:38
+End-Date: End-Date: 2025-02-16  20:55:40
+
+Commandline: Commandline: apt-get install --reinstall libss2:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:42
+End-Date: End-Date: 2025-02-16  20:55:44
+
+Commandline: Commandline: apt-get install --reinstall libssl3t64:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:46
+End-Date: End-Date: 2025-02-16  20:55:48
+
+Commandline: Commandline: apt-get install --reinstall libstdc++6:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:51
+End-Date: End-Date: 2025-02-16  20:55:52
+
+Commandline: Commandline: apt-get install --reinstall libsystemd0:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:55
+End-Date: End-Date: 2025-02-16  20:55:56
+
+Commandline: Commandline: apt-get install --reinstall libtasn1-6:amd64
+Start-Date: Start-Date: 2025-02-16  20:55:59
+End-Date: End-Date: 2025-02-16  20:56:00
+
+Commandline: Commandline: apt-get install --reinstall libtinfo6:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:03
+End-Date: End-Date: 2025-02-16  20:56:04
+
+Commandline: Commandline: apt-get install --reinstall libudev1:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:07
+End-Date: End-Date: 2025-02-16  20:56:08
+
+Commandline: Commandline: apt-get install --reinstall libunistring5:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:11
+End-Date: End-Date: 2025-02-16  20:56:13
+
+Commandline: Commandline: apt-get install --reinstall libuuid1:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:15
+End-Date: End-Date: 2025-02-16  20:56:17
+
+Commandline: Commandline: apt-get install --reinstall libxxhash0:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:19
+End-Date: End-Date: 2025-02-16  20:56:21
+
+Commandline: Commandline: apt-get install --reinstall libzstd1:amd64
+Start-Date: Start-Date: 2025-02-16  20:56:23
+End-Date: End-Date: 2025-02-16  20:56:25
+
+Commandline: Commandline: apt-get install --reinstall login
+Start-Date: Start-Date: 2025-02-16  20:56:28
+End-Date: End-Date: 2025-02-16  20:56:29
+
+Commandline: Commandline: apt-get install --reinstall logsave
+Start-Date: Start-Date: 2025-02-16  20:56:32
+End-Date: End-Date: 2025-02-16  20:56:33
+
+Commandline: Commandline: apt-get install --reinstall mawk
+Start-Date: Start-Date: 2025-02-16  20:56:36
+End-Date: End-Date: 2025-02-16  20:56:37
+
+Commandline: Commandline: apt-get install --reinstall mount
+Start-Date: Start-Date: 2025-02-16  20:56:39
+End-Date: End-Date: 2025-02-16  20:56:41
+
+Commandline: Commandline: apt-get install --reinstall ncurses-base
+Start-Date: Start-Date: 2025-02-16  20:56:43
+End-Date: End-Date: 2025-02-16  20:56:45
+
+Commandline: Commandline: apt-get install --reinstall ncurses-bin
+Start-Date: Start-Date: 2025-02-16  20:56:47
+End-Date: End-Date: 2025-02-16  20:56:49
+
+Commandline: Commandline: apt-get install --reinstall passwd
+Start-Date: Start-Date: 2025-02-16  20:56:52
+End-Date: End-Date: 2025-02-16  20:56:53
+
+Commandline: Commandline: apt-get install --reinstall perl-base
+Start-Date: Start-Date: 2025-02-16  20:56:55
+End-Date: End-Date: 2025-02-16  20:56:57
+
+Commandline: Commandline: apt-get install --reinstall procps
+Start-Date: Start-Date: 2025-02-16  20:57:00
+End-Date: End-Date: 2025-02-16  20:57:01
+
+Commandline: Commandline: apt-get install --reinstall sed
+Start-Date: Start-Date: 2025-02-16  20:57:04
+End-Date: End-Date: 2025-02-16  20:57:05
+
+Commandline: Commandline: apt-get install --reinstall sensible-utils
+Start-Date: Start-Date: 2025-02-16  20:57:08
+End-Date: End-Date: 2025-02-16  20:57:09
+
+Commandline: Commandline: apt-get install --reinstall sysvinit-utils
+Start-Date: Start-Date: 2025-02-16  20:57:12
+End-Date: End-Date: 2025-02-16  20:57:13
+
+Commandline: Commandline: apt-get install --reinstall tar
+Start-Date: Start-Date: 2025-02-16  20:57:16
+End-Date: End-Date: 2025-02-16  20:57:17
+
+Commandline: Commandline: apt-get install --reinstall ubuntu-keyring
+Start-Date: Start-Date: 2025-02-16  20:57:20
+End-Date: End-Date: 2025-02-16  20:57:21
+
+Commandline: Commandline: apt-get install --reinstall util-linux
+Start-Date: Start-Date: 2025-02-16  20:57:24
+End-Date: End-Date: 2025-02-16  20:57:26
+
+Commandline: Commandline: apt-get install --reinstall zlib1g:amd64
+Start-Date: Start-Date: 2025-02-16  20:57:28
+End-Date: End-Date: 2025-02-16  20:57:30
+
+Commandline: Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes --force-yes upgrade
+Start-Date: Start-Date: 2025-02-16  20:57:34
+End-Date: End-Date: 2025-02-16  20:57:38
+
+Commandline: Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes --force-yes dist-upgrade
+Start-Date: Start-Date: 2025-02-16  20:57:39
+End-Date: End-Date: 2025-02-16  20:57:39
+
+Commandline: Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes install adduser apparmor apport apport-core-dump-handler apt base-passwd bcache-tools btrfs-progs busybox-initramfs ca-certificates cloud-guest-utils cloud-init coreutils cpio cryptsetup cryptsetup-bin curl dbus dbus-bin dbus-daemon dbus-session-bus-common dbus-system-bus-common dbus-user-session debconf dhcpcd-base distro-info-data dmeventd dmsetup dpkg dracut-install e2fsprogs ethtool fdisk fuse3 gawk gcc-14-base gettext-base gir1.2-girepository-2.0 gir1.2-glib-2.0 gpgv init-system-helpers initramfs-tools initramfs-tools-bin initramfs-tools-core iproute2 klibc-utils kmod kpartx libacl1 libaio1t64 libapparmor1 libapt-pkg6.0t64 libargon2-1 libassuan0 libattr1 libaudit-common libaudit1 libblkid1 libbpf1 libbrotli1 libbsd0 libbz2-1.0 libc6 libcap-ng0 libcap2 libcap2-bin libcbor0.10 libcom-err2 libcrypt1 libcryptsetup12 libcurl4t64 libdb5.3t64 libdbus-1-3 libdebconfclient0 libdevmapper-event1.02.1 libdevmapper1.02.1 libdrm-common libdrm2 libedit2 libelf1t64 libexpat1 libext2fs2t64 libfdisk1 libffi8 libfido2-1 libfuse3-3 libgcc-s1 libgcrypt20 libgdbm-compat4t64 libgdbm6t64 libgirepository-1.0-1 libglib2.0-0t64 libgmp10 libgnutls30t64 libgpg-error0 libgssapi-krb5-2 libhogweed6t64 libicu74 libidn2-0 libinih1 libintl-perl libisns0t64 libjson-c5 libk5crypto3 libkeyutils1 libklibc libkmod2 libkrb5-3 libkrb5support0 libldap2 liblvm2cmd2.03 liblz4-1 liblzma5 liblzo2-2 libmd0 libmnl0 libmodule-find-perl libmodule-scandeps-perl libmount1 libmpfr6 libncursesw6 libnetplan1 libnettle8t64 libnghttp2-14 libnpth0t64 libopeniscsiusr libp11-kit0 libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libpci3 libpcre2-8-0 libperl5.38t64 libpopt0 libproc-processtable-perl libproc2-0 libpsl5t64 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib libreadline8t64 libreiserfscore0t64 librtmp1 libsasl2-2 libsasl2-modules-db libseccomp2 libselinux1 libsemanage-common libsemanage2 libsepol2 libsgutils2-1.46-2 libsigsegv2 libsmartcols1 libsort-naturally-perl libsqlite3-0 libss2 libssh-4 libssl3t64 libstdc++6 libsystemd-shared libsystemd0 libtasn1-6 libterm-readkey-perl libtinfo6 libtirpc-common libtirpc3t64 libudev1 libunistring5 liburcu8t64 libusb-1.0-0 libuuid1 libxtables12 libxxhash0 libyaml-0-2 libzstd1 linux-base logsave lsb-base lsb-release lvm2 mdadm media-types mount multipath-tools needrestart netbase netplan-generator netplan.io open-iscsi openssh-client openssl passwd pci.ids pciutils perl perl-base perl-modules-5.38 pollinate procps python-apt-common python3 python3-apport python3-apt python3-attr python3-blinker python3-certifi python3-cffi-backend python3-chardet python3-click python3-colorama python3-configobj python3-cryptography python3-dbus python3-debconf python3-distro python3-distro-info python3-distupgrade python3-gi python3-httplib2 python3-idna python3-jinja2 python3-json-pointer python3-jsonpatch python3-jsonschema python3-jwt python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri python3-markupsafe python3-minimal python3-netplan python3-oauthlib python3-pkg-resources python3-problem-report python3-pyparsing python3-pyrsistent python3-requests python3-serial python3-six python3-update-manager python3-urllib3 python3-wadllib python3-xkit python3-yaml python3.12 python3.12-minimal readline-common sed sensible-utils sg3-utils sg3-utils-udev snapd squashfs-tools sudo systemd systemd-dev systemd-resolved systemd-sysv sysvinit-utils tar tzdata ubuntu-drivers-common ubuntu-keyring ubuntu-release-upgrader-core ubuntu-server-minimal ucf udev unattended-upgrades unminimize usbutils xfsprogs xxd xz-utils zlib1g lxd-installer
+Start-Date: Start-Date: 2025-02-16  20:57:42
+End-Date: End-Date: 2025-02-16  20:58:20
+
+Commandline: Commandline: apt-get install --reinstall -y gdisk zstd unattended-upgrades xfsprogs multipath-tools kpartx cloud-init squashfs-tools sg3-utils pollinate packagekit-tools polkitd xml-core needrestart mdadm lvm2 libterm-readkey-perl libsort-naturally-perl libproc-processtable-perl:amd64 libmodule-scandeps-perl libmodule-find-perl libldap-common libintl-xs-perl libintl-perl libglib2.0-bin gpg-wks-client gnupg keyboxd gpgsm gpg-agent pinentry-curses gpg gnupg-utils finalrd fdisk eatmydata dmeventd dirmngr gpgconf curl initramfs-tools linux-base initramfs-tools-core cryptsetup cryptsetup-bin btrfs-progs bcache-tools appstream libsasl2-2:amd64 xz-utils xauth ubuntu-release-upgrader-core plymouth openssh-client libx11-data libedit2:amd64 groff-base gettext-base fuse3 cpio apparmor xxd xdg-user-dirs ucf systemd-timesyncd systemd-resolved sudo shared-mime-info python3-pygments networkd-dispatcher netplan.io cloud-guest-utils thin-provisioning-tools software-properties-common snapd iproute2 libcap2-bin libtirpc-common libpam-systemd:amd64 coreutils ncurses-bin mawk libsemanage-common bash base-passwd tar sysvinit-utils sensible-utils sed apt init-system-helpers hostname gzip grep gpgv findutils diffutils debconf debianutils dash adduser kmod usbutils pciutils sgml-base perl libperl5.38t64:amd64 dmsetup dhcpcd-base open-iscsi udev gawk python3-chardet lsb-release dbus-daemon dbus-bin systemd-sysv systemd python3 python3.12 readline-common ethtool netplan-generator libpam-cap:amd64 libnss-systemd:amd64 console-setup keyboard-configuration xkb-data liblocale-gettext-perl kbd ca-certificates openssl libpam-modules:amd64 python3-minimal python3.12-minimal procps passwd libpam-modules-bin logsave libpam-runtime libaudit-common mount e2fsprogs util-linux perl-base bsdutils apport libc-bin base-files login dpkg
+Start-Date: Start-Date: 2025-02-16  20:58:40
+End-Date: End-Date: 2025-02-16  20:59:23
+
+Commandline: Commandline: apt-get install --reinstall -y cryptsetup-initramfs dbus dbus-session-bus-common dbus-system-bus-common distro-info-data dracut-install gcc-14-base:amd64 gnupg-l10n iso-codes libapt-pkg6.0t64:amd64 libc6:amd64 libcbor0.10:amd64 libcryptsetup12:amd64 libdb5.3t64:amd64 libdbus-1-3:amd64 libexpat1:amd64 libfuse3-3:amd64 libgcrypt20:amd64 libglib2.0-0t64:amd64 libgmp10:amd64 libgnutls30t64:amd64 libgpg-error0:amd64 libidn2-0:amd64 libjson-c5:amd64 libklibc:amd64 libkrb5-3:amd64 libksba8:amd64 libldap2:amd64 liblzma5:amd64 liblzo2-2:amd64 libmpfr6:amd64 libnettle8t64:amd64 libnghttp2-14:amd64 libopeniscsiusr libp11-kit0:amd64 libpam0g:amd64 libpcre2-8-0:amd64 libpng16-16t64:amd64 libpolkit-gobject-1-0:amd64 libpopt0:amd64 libproc2-0:amd64 libpython3-stdlib:amd64 libpython3.12-minimal:amd64 libreadline8t64:amd64 libsigsegv2:amd64 libsqlite3-0:amd64 libssh-4:amd64 libstemmer0d:amd64 libsystemd-shared:amd64 libsystemd0:amd64 libtasn1-6:amd64 libtirpc3t64:amd64 libudev1:amd64 libusb-1.0-0:amd64 libxml2:amd64 libxtables12:amd64 lsb-base ncurses-base packagekit perl-modules-5.38 publicsuffix python3-babel python3-certifi python3-colorama python3-dbus python3-gi python3-httplib2 python3-json-pointer python3-jsonpatch python3-jwt python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri python3-markdown-it python3-oauthlib python3-pkg-resources python3-requests python3-rich python3-serial python3-software-properties python3-tz python3-wadllib python3-yaml systemd-dev tzdata ubuntu-drivers-common
+Start-Date: Start-Date: 2025-02-16  20:59:26
+End-Date: End-Date: 2025-02-16  20:59:43
+
+Commandline: Commandline: apt-get install -y ubuntu-minimal ubuntu-standard
+Start-Date: Start-Date: 2025-02-16  20:59:50
+End-Date: End-Date: 2025-02-16  21:00:01
+
+Commandline: Commandline: apt-get -y --fix-policy install
+Start-Date: Start-Date: 2025-02-16  21:00:04
+End-Date: End-Date: 2025-02-16  21:00:04
+
+Commandline: Commandline: apt-get --yes -oDebug::pkgDepCache::AutoInstall=yes install adduser apparmor apport apport-core-dump-handler apport-symptoms appstream apt apt-utils base-files base-passwd bash bash-completion bc bcache-tools bind9-dnsutils bind9-host bind9-libs bolt bsdextrautils bsdutils btrfs-progs busybox-initramfs busybox-static byobu ca-certificates cloud-guest-utils cloud-initramfs-copymods cloud-initramfs-dyn-netconf command-not-found console-setup console-setup-linux coreutils cpio cron cron-daemon-common cryptsetup cryptsetup-bin cryptsetup-initramfs curl dash dbus dbus-bin dbus-daemon dbus-session-bus-common dbus-system-bus-common dbus-user-session debconf debconf-i18n debianutils dhcpcd-base diffutils dirmngr distro-info distro-info-data dmeventd dmidecode dmsetup dosfstools dpkg dracut-install e2fsprogs ed eject ethtool fdisk file finalrd findutils fonts-ubuntu-console friendly-recovery ftp fuse3 fwupd fwupd-signed gawk gcc-14-base gdisk gettext-base gir1.2-girepository-2.0 gir1.2-glib-2.0 gir1.2-packagekitglib-1.0 git git-man gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpgconf gpgsm gpgv grep groff-base gzip hdparm hostname htop ibverbs-providers inetutils-telnet info init init-system-helpers initramfs-tools initramfs-tools-bin initramfs-tools-core install-info iproute2 iptables iputils-ping iputils-tracepath iso-codes jq kbd keyboard-configuration keyboxd klibc-utils kmod kpartx krb5-locales landscape-common less libacl1 libaio1t64 libapparmor1 libappstream5 libapt-pkg6.0t64 libarchive13t64 libargon2-1 libassuan0 libatasmart4 libatm1t64 libattr1 libaudit-common libaudit1 libblkid1 libblockdev-crypto3 libblockdev-fs3 libblockdev-loop3 libblockdev-mdraid3 libblockdev-nvme3 libblockdev-part3 libblockdev-swap3 libblockdev-utils3 libblockdev3 libbpf1 libbrotli1 libbsd0 libbytesize-common libbytesize1 libbz2-1.0 libc-bin libc6 libcap-ng0 libcap2 libcap2-bin libcbor0.10 libcom-err2 libcrypt1 libcryptsetup12 libcurl3t64-gnutls libcurl4t64 libdb5.3t64 libdbus-1-3 libdebconfclient0 libdevmapper-event1.02.1 libdevmapper1.02.1 libdrm-common libdrm2 libduktape207 libdw1t64 libedit2 libelf1t64 liberror-perl libestr0 libevdev2 libevent-core-2.1-7t64 libexpat1 libext2fs2t64 libfastjson4 libfdisk1 libffi8 libfido2-1 libflashrom1 libfribidi0 libftdi1-2 libfuse3-3 libfwupd2 libgcc-s1 libgcrypt20 libgdbm-compat4t64 libgdbm6t64 libgirepository-1.0-1 libglib2.0-0t64 libglib2.0-bin libglib2.0-data libgmp10 libgnutls30t64 libgpg-error0 libgpgme11t64 libgpm2 libgssapi-krb5-2 libgstreamer1.0-0 libgudev-1.0-0 libgusb2 libhogweed6t64 libibverbs1 libicu74 libidn2-0 libinih1 libintl-perl libintl-xs-perl libip4tc2 libip6tc2 libisns0t64 libjansson4 libjcat1 libjq1 libjson-c5 libjson-glib-1.0-0 libjson-glib-1.0-common libk5crypto3 libkeyutils1 libklibc libkmod2 libkrb5-3 libkrb5support0 libksba8 libldap-common libldap2 liblmdb0 liblocale-gettext-perl liblvm2cmd2.03 liblz4-1 liblzma5 liblzo2-2 libmagic-mgc libmagic1t64 libmaxminddb0 libmbim-glib4 libmbim-proxy libmbim-utils libmd0 libmm-glib0 libmnl0 libmodule-find-perl libmodule-scandeps-perl libmount1 libmpfr6 libmspack0t64 libncurses6 libncursesw6 libnetfilter-conntrack3 libnetplan1 libnettle8t64 libnewt0.52 libnfnetlink0 libnftables1 libnftnl11 libnghttp2-14 libnl-3-200 libnl-genl-3-200 libnl-route-3-200 libnpth0t64 libnspr4 libnss-systemd libnss3 libntfs-3g89t64 libnuma1 libnvme1t64 libonig5 libopeniscsiusr libp11-kit0 libpackagekit-glib2-18 libpam-cap libpam-modules libpam-modules-bin libpam-runtime libpam-systemd libpam0g libparted2t64 libpcap0.8t64 libpci3 libpcre2-8-0 libperl5.38t64 libpipeline1 libplymouth5 libpng16-16t64 libpolkit-agent-1-0 libpolkit-gobject-1-0 libpopt0 libproc-processtable-perl libproc2-0 libprotobuf-c1 libpsl5t64 libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib libpython3.12t64 libqmi-glib5 libqmi-proxy libqmi-utils libqrtr-glib0 libreadline8t64 libreiserfscore0t64 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libseccomp2 libselinux1 libsemanage-common libsemanage2 libsensors-config libsensors5 libsepol2 libsgutils2-1.46-2 libsigsegv2 libslang2 libsmartcols1 libsodium23 libsort-naturally-perl libsqlite3-0 libss2 libssh-4 libssl3t64 libstdc++6 libstemmer0d libsystemd-shared libsystemd0 libtasn1-6 libtcl8.6 libterm-readkey-perl libtext-charwidth-perl libtext-iconv-perl libtext-wrapi18n-perl libtinfo6 libtirpc-common libtirpc3t64 libtraceevent1 libtraceevent1-plugin libtracefs1 libtss2-esys-3.0.2-0t64 libtss2-mu-4.0.1-0t64 libtss2-sys1t64 libtss2-tcti-cmd0t64 libtss2-tcti-device0t64 libtss2-tcti-mssim0t64 libtss2-tcti-swtpm0t64 libuchardet0 libudev1 libudisks2-0 libunistring5 libunwind8 liburcu8t64 libusb-1.0-0 libutempter0 libuuid1 libuv1t64 libvolume-key1 libx11-6 libx11-data libxau6 libxcb1 libxdmcp6 libxext6 libxkbcommon0 libxml2 libxmlb2 libxmlsec1t64 libxmlsec1t64-openssl libxmuu1 libxslt1.1 libxtables12 libxxhash0 libyaml-0-2 libzstd1 linux-base locales login logrotate logsave lsb-release lshw lsof lvm2 lxd-agent-loader lxd-installer man-db manpages mawk mdadm media-types modemmanager motd-news-config mount mtr-tiny multipath-tools nano ncurses-base ncurses-bin needrestart netbase netcat-openbsd netplan-generator netplan.io networkd-dispatcher nftables ntfs-3g numactl open-iscsi open-vm-tools openssh-client openssl overlayroot packagekit packagekit-tools parted passwd pastebinit patch pci.ids pciutils perl perl-base perl-modules-5.38 pinentry-curses plymouth plymouth-theme-ubuntu-text polkitd pollinate powermgmt-base procps psmisc publicsuffix python-apt-common python3 python3-apport python3-apt python3-attr python3-automat python3-bcrypt python3-blinker python3-boto3 python3-botocore python3-certifi python3-cffi-backend python3-chardet python3-click python3-colorama python3-commandnotfound python3-configobj python3-constantly python3-cryptography python3-dateutil python3-dbus python3-debconf python3-debian python3-distro python3-distro-info python3-distupgrade python3-gdbm python3-gi python3-hamcrest python3-httplib2 python3-hyperlink python3-idna python3-incremental python3-jmespath python3-jwt python3-launchpadlib python3-lazr.restfulclient python3-lazr.uri python3-magic python3-markdown-it python3-mdurl python3-minimal python3-netifaces python3-netplan python3-newt python3-oauthlib python3-openssl python3-packaging python3-pexpect python3-pkg-resources python3-problem-report python3-ptyprocess python3-pyasn1 python3-pyasn1-modules python3-pygments python3-pyparsing python3-requests python3-rich python3-s3transfer python3-service-identity python3-setuptools python3-six python3-software-properties python3-systemd python3-twisted python3-update-manager python3-urllib3 python3-wadllib python3-yaml python3-zope.interface python3.12 python3.12-minimal readline-common rsync rsyslog run-one sbsigntool screen secureboot-db sed sensible-utils sg3-utils sg3-utils-udev sgml-base shared-mime-info snapd software-properties-common sosreport squashfs-tools strace sudo sysstat systemd systemd-dev systemd-hwe-hwdb systemd-resolved systemd-sysv systemd-timesyncd sysvinit-utils tar tcl tcl8.6 tcpdump telnet thin-provisioning-tools time tmux tnftp tpm-udev trace-cmd tzdata ubuntu-keyring ubuntu-minimal ubuntu-pro-client ubuntu-pro-client-l10n ubuntu-release-upgrader-core ubuntu-server ubuntu-standard ucf udev udisks2 ufw unattended-upgrades update-manager-core update-notifier-common usb-modeswitch usb-modeswitch-data usb.ids usbutils util-linux uuid-runtime vim vim-common vim-runtime vim-tiny wget whiptail xauth xdg-user-dirs xfsprogs xkb-data xml-core xxd xz-utils zerofree zlib1g zstd cloud-init
+Start-Date: Start-Date: 2025-02-16  21:00:10
+End-Date: End-Date: 2025-02-16  21:00:28
+
+Commandline: Commandline: apt-get --quiet --assume-yes --option=Dpkg::options::=--force-unsafe-io --option=Dpkg::Options::=--force-confold install grub-pc
+Start-Date: Start-Date: 2025-03-12  18:07:37
+End-Date: End-Date: 2025-03-12  18:08:03
+
+Commandline: Commandline: apt-get --quiet --assume-yes --option=Dpkg::options::=--force-unsafe-io --option=Dpkg::Options::=--force-confold install linux-generic
+Start-Date: Start-Date: 2025-03-12  18:08:37
+End-Date: End-Date: 2025-03-12  18:11:58
+
+Commandline: Commandline: apt-get --quiet --assume-yes --option=Dpkg::options::=--force-unsafe-io --option=Dpkg::Options::=--force-confold install openssh-server
+Start-Date: Start-Date: 2025-03-12  18:12:45
+End-Date: End-Date: 2025-03-12  18:13:11
+
+Commandline: Commandline: /usr/bin/unattended-upgrades -v
+Start-Date: Start-Date: 2025-03-12  18:13:21
+End-Date: End-Date: 2025-03-12  18:14:11
+
+Commandline: Commandline: apt dist-upgrade
+Start-Date: Start-Date: 2025-03-12  18:19:08
+End-Date: End-Date: 2025-03-12  18:21:04
+
+Commandline: Commandline: apt install vim qemu-guest-agent
+Start-Date: Start-Date: 2025-03-12  18:21:23
+End-Date: End-Date: 2025-03-12  18:21:31
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:16:14
+End-Date: End-Date: 2025-10-16  06:19:31
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:19:37
+End-Date: End-Date: 2025-10-16  06:21:18
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:21:24
+End-Date: End-Date: 2025-10-16  06:23:20
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:23:23
+End-Date: End-Date: 2025-10-16  06:23:44
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:23:46
+End-Date: End-Date: 2025-10-16  06:24:16
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:24:20
+End-Date: End-Date: 2025-10-16  06:27:06
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:27:08
+End-Date: End-Date: 2025-10-16  06:27:26
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:27:28
+End-Date: End-Date: 2025-10-16  06:28:14
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:28:16
+End-Date: End-Date: 2025-10-16  06:30:03
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:30:07
+End-Date: End-Date: 2025-10-16  06:32:25
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:32:31
+End-Date: End-Date: 2025-10-16  06:34:35
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:34:40
+End-Date: End-Date: 2025-10-16  06:35:28
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:35:31
+End-Date: End-Date: 2025-10-16  06:39:16
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:39:21
+End-Date: End-Date: 2025-10-16  06:41:19
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:41:23
+End-Date: End-Date: 2025-10-16  06:44:03
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:44:07
+End-Date: End-Date: 2025-10-16  06:46:49
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:46:55
+End-Date: End-Date: 2025-10-16  06:48:25
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:48:32
+End-Date: End-Date: 2025-10-16  06:48:59
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:49:04
+End-Date: End-Date: 2025-10-16  06:49:40
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:49:52
+End-Date: End-Date: 2025-10-16  06:51:36
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:51:39
+End-Date: End-Date: 2025-10-16  06:52:03
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:52:10
+End-Date: End-Date: 2025-10-16  06:52:42
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  06:52:45
+End-Date: End-Date: 2025-10-16  07:03:35
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:03:47
+End-Date: End-Date: 2025-10-16  07:06:56
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:07:16
+End-Date: End-Date: 2025-10-16  07:12:58
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:13:08
+End-Date: End-Date: 2025-10-16  07:16:27
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:16:33
+End-Date: End-Date: 2025-10-16  07:17:14
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:17:18
+End-Date: End-Date: 2025-10-16  07:19:59
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:20:04
+End-Date: End-Date: 2025-10-16  07:21:55
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:22:01
+End-Date: End-Date: 2025-10-16  07:23:18
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:23:25
+End-Date: End-Date: 2025-10-16  07:25:37
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:25:45
+End-Date: End-Date: 2025-10-16  07:28:50
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:28:59
+End-Date: End-Date: 2025-10-16  07:33:16
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:33:32
+End-Date: End-Date: 2025-10-16  07:41:51
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:42:07
+End-Date: End-Date: 2025-10-16  07:42:47
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:42:55
+End-Date: End-Date: 2025-10-16  07:44:10
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:44:16
+End-Date: End-Date: 2025-10-16  07:47:15
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:47:28
+End-Date: End-Date: 2025-10-16  07:51:10
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:51:15
+End-Date: End-Date: 2025-10-16  07:52:03
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:52:16
+End-Date: End-Date: 2025-10-16  07:53:21
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:53:24
+End-Date: End-Date: 2025-10-16  07:54:33
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-16  07:54:38
+End-Date: End-Date: 2025-10-16  07:55:45
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:40:23
+End-Date: End-Date: 2025-10-23  06:40:58
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:41:06
+End-Date: End-Date: 2025-10-23  06:41:41
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:41:44
+End-Date: End-Date: 2025-10-23  06:44:17
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:44:24
+End-Date: End-Date: 2025-10-23  06:44:37
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:44:39
+End-Date: End-Date: 2025-10-23  06:44:50
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:44:52
+End-Date: End-Date: 2025-10-23  06:45:21
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:45:23
+End-Date: End-Date: 2025-10-23  06:45:26
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-23  06:45:28
+End-Date: End-Date: 2025-10-23  06:45:34
+
+Commandline: Commandline: /usr/bin/unattended-upgrade
+Start-Date: Start-Date: 2025-10-28  06:42:25
+End-Date: End-Date: 2025-10-28  06:43:03
+
+Commandline: Commandline: apt install bzip2
+Start-Date: Start-Date: 2025-10-28  09:54:24
+End-Date: End-Date: 2025-10-28  09:54:28
+
+Commandline: Commandline: apt install p7zip-full
+Start-Date: Start-Date: 2025-10-28  09:55:20
+End-Date: End-Date: 2025-10-28  09:55:27
+
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# awk '/^Commandline/ {cmd=$0} /^Start-Date/ {start=$0} /^End-Date/ {end=$0; print "Commandline: " cmd "\nStart-Date: " start "\nEnd-Date: " end "\n"}' /var/log/apt/history.log]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# sed -n '$=' /var/log/kern.log
+
+cleardmesg | grep -i kernelclearfor user in $(grep '/usr/sbin/nologin' /etc/passwd | awk -F: '{print $1}'); do groups $user; doneclear
+dmesg | grep -i kernelclearsed -n '$=' /var/log/kern.logawk '/^Commandline/ {cmd=$0} /^Start-Date/ {start=$0} /^End-Date/ {end=$0; print "Commandline: " cmd "\nStart-Date: " start "\nEnd-Date: " end "\n"}' /var/log/apt/history.log]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# 
+
+]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# git config --global user,.mname ""r"u"s"s"i"c"h"j"u"s"t"
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# git config --global user.email ""r"u"s"."p"o"n"o"m"a"r"e"v"."0"4"@"m"a"i"l"."r"u"
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# git config --global init.defaultBranch main
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# apt install update
+[?2004l0% [Working]            Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.81)]0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.81)]                                                                           Get:2 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+                                                                           0% [2 InRelease 11.8 kB/126 kB 9%] [Waiting for headers]                                                        0% [Waiting for headers]                        Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+0% [Waiting for headers] [3 InRelease 14.2 kB/126 kB 11%]0% [Waiting for headers] [3 InRelease 14.2 kB/126 kB 11%]                                                         Get:4 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+0% [4 InRelease 4,039 B/126 kB 3%] [3 InRelease 14.2 kB/126 kB 11%]                                                                   0% [3 InRelease 14.2 kB/126 kB 11%]0% [Waiting for headers] [3 InRelease 14.2 kB/126 kB 11%]                                                         Get:5 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,548 kB]
+0% [5 Packages 8,608 B/1,548 kB 1%] [3 InRelease 14.2 kB/126 kB 11%]                                                                    0% [Waiting for headers] [3 InRelease 34.4 kB/126 kB 27%]                                                         Get:6 http://ru.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [294 kB]
+0% [6 Translation-en 228 kB/294 kB 78%] [3 InRelease 34.4 kB/126 kB 27%]0% [5 Packages store 0 B] [6 Translation-en 228 kB/294 kB 78%] [3 InRelease 34.4 kB/126 kB 2                                                                                            Get:7 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+                                                                                            Get:8 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.4 kB]
+                                                                                            Get:9 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2,180 kB]
+                                                                                            0% [5 Packages store 0 B] [9 Packages 32.8 kB/2,180 kB 2%] [3 InRelease 43.1 kB/126 kB 34%]                                                                                           0% [9 Packages 1,838 kB/2,180 kB 84%] [3 InRelease 62.0 kB/126 kB 49%]0% [6 Translation-en store 0 B] [9 Packages 1,838 kB/2,180 kB 84%] [3 InRelease 62.0 kB/126                                                                                             Get:10 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [491 kB]
+0% [6 Translation-en store 0 B] [10 Translation-en 51.8 kB/491 kB 11%] [3 InRelease 62.0 kB/                                                                                            0% [6 Translation-en store 0 B] [3 InRelease 64.9 kB/126 kB 51%]                                                                Get:11 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+                                                                Get:12 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+0% [6 Translation-en store 0 B] [12 Components-amd64 65.2 kB/378 kB 17%] [3 InRelease 64.9 k                                                                                            0% [6 Translation-en store 0 B] [3 InRelease 64.9 kB/126 kB 51%]                                                                Get:13 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.4 kB]
+0% [6 Translation-en store 0 B] [13 Commands-amd64 16.9 kB/31.4 kB 54%] [3 InRelease 64.9 kB                                                                                            0% [6 Translation-en store 0 B] [3 InRelease 70.6 kB/126 kB 56%]                                                                Get:14 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+                                                                Get:15 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,152 B]
+                                                                Get:16 http://ru.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+                                                                Get:17 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+                                                                Get:18 http://ru.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+0% [6 Translation-en store 0 B] [18 Components-amd64 42 B/212 B 20%] [3 InRelease 70.6 kB/12                                                                                            0% [18 Components-amd64 42 B/212 B 20%] [3 InRelease 76.4 kB/126 kB 61%]0% [7 Components-amd64 store 0 B] [18 Components-amd64 42 B/212 B 20%] [3 InRelease 76.4 kB/                                                                                            0% [18 Components-amd64 42 B/212 B 20%] [3 InRelease 85.1 kB/126 kB 67%]0% [8 Commands-amd64 store 0 B] [18 Components-amd64 42 B/212 B 20%] [3 InRelease 85.1 kB/12                                                                                            0% [8 Commands-amd64 store 0 B] [3 InRelease 85.1 kB/126 kB 67%]                                                                0% [3 InRelease 85.1 kB/126 kB 67%]0% [9 Packages store 0 B] [3 InRelease 85.1 kB/126 kB 67%]                                                          0% [9 Packages store 0 B]74% [9 Packages store 0 B]                          74% [Waiting for headers]74% [10 Translation-en store 0 B] [Waiting for headers]                                                       74% [Waiting for headers]74% [11 Components-amd64 store 0 B] [Waiting for headers]                                                         74% [Waiting for headers]74% [12 Components-amd64 store 0 B] [Waiting for headers]                                                         Get:19 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1,270 kB]
+74% [12 Components-amd64 store 0 B] [19 Packages 2,655 B/1,270 kB 0%]                                                                     75% [19 Packages 56.2 kB/1,270 kB 4%]75% [13 Commands-amd64 store 0 B] [19 Packages 56.2 kB/1,270 kB 4%]                                                                   75% [19 Packages 59.1 kB/1,270 kB 5%]75% [14 Components-amd64 store 0 B] [19 Packages 59.1 kB/1,270 kB 5%]                                                                     75% [19 Packages 62.0 kB/1,270 kB 5%]75% [15 Components-amd64 store 0 B] [19 Packages 62.0 kB/1,270 kB 5%]                                                                     76% [19 Packages 62.0 kB/1,270 kB 5%]76% [16 Components-amd64 store 0 B] [19 Packages 62.0 kB/1,270 kB 5%]                                                                     76% [19 Packages 62.0 kB/1,270 kB 5%]76% [17 Components-amd64 store 0 B] [19 Packages 62.0 kB/1,270 kB 5%]                                                                     76% [19 Packages 64.9 kB/1,270 kB 5%]76% [18 Components-amd64 store 0 B] [19 Packages 64.9 kB/1,270 kB 5%]                                                                     76% [19 Packages 64.9 kB/1,270 kB 5%]85% [19 Packages 964 kB/1,270 kB 76%]                                     88% [Working]88% [19 Packages store 0 B] [Waiting for headers]                                                 89% [Waiting for headers]                         Get:20 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+89% [20 Components-amd64 7,003 B/21.5 kB 33%]                                             89% [Waiting for headers]                         Get:21 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9,008 B]
+89% [21 Commands-amd64 9,008 B/9,008 B 100%]                                            Get:22 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+                                            Get:23 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [905 kB]
+89% [20 Components-amd64 store 0 B] [23 Packages 9,452 B/905 kB 1%]                                                                   90% [23 Packages 45.7 kB/905 kB 5%]90% [21 Commands-amd64 store 0 B] [23 Packages 45.7 kB/905 kB 5%]                                                                 90% [23 Packages 76.1 kB/905 kB 8%]90% [23 Packages 76.1 kB/905 kB 8%]                                   99% [Waiting for headers]                         Get:24 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+99% [24 Components-amd64 383 B/52.2 kB 1%]99% [23 Packages store 0 B] [24 Components-amd64 383 B/52.2 kB 1%]                                                                  99% [23 Packages store 0 B]                           Get:25 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [19.4 kB]
+99% [23 Packages store 0 B] [25 Commands-amd64 603 B/19.4 kB 3%]                                                                99% [23 Packages store 0 B]                           Get:26 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+99% [23 Packages store 0 B]                           100% [Working]100% [24 Components-amd64 store 0 B]                                    100% [Working]100% [25 Commands-amd64 store 0 B]                                  100% [Working]100% [26 Components-amd64 store 0 B]                                    100% [Working]              Fetched 7,788 kB in 2s (3,713 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 40%Reading package lists... 40%Reading package lists... 55%Reading package lists... 55%Reading package lists... 55%Reading package lists... 55%Reading package lists... 56%Reading package lists... 56%Reading package lists... 60%Reading package lists... 60%Reading package lists... 62%Reading package lists... 62%Reading package lists... 69%Reading package lists... 69%Reading package lists... 73%Reading package lists... 73%Reading package lists... 78%Reading package lists... 78%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 91%Reading package lists... 91%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+79 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# apt install git gh
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+git set to manually installed.
+The following NEW packages will be installed:
+  gh
+0 upgraded, 1 newly installed, 0 to remove and 79 not upgraded.
+Need to get 8,836 kB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gh amd64 2.45.0-1ubuntu0.3 [8,836 kB]
+0% [1 gh 11.8 kB/8,836 kB 0%]25% [1 gh 2,811 kB/8,836 kB 32%]                                100% [Working]              Fetched 8,836 kB in 1s (8,488 kB/s)
+
+78Selecting previously unselected package gh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125205 files and directories currently installed.)
+Preparing to unpack .../gh_2.45.0-1ubuntu0.3_amd64.deb ...
+7Progress: [  0%] [.......................................................................] 87Progress: [ 20%] [##############.........................................................] 8Unpacking gh (2.45.0-1ubuntu0.3) ...
+7Progress: [ 40%] [############################...........................................] 8Setting up gh (2.45.0-1ubuntu0.3) ...
+7Progress: [ 60%] [##########################################.............................] 87Progress: [ 80%] [########################################################...............] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+78Scanning processes... [                                                                     ]Scanning processes... [                                                                     ]Scanning processes... [=                                                                    ]Scanning processes... [=                                                                    ]Scanning processes... [==                                                                   ]Scanning processes... [===                                                                  ]Scanning processes... [===                                                                  ]Scanning processes... [====                                                                 ]Scanning processes... [====                                                                 ]Scanning processes... [=====                                                                ]Scanning processes... [======                                                               ]Scanning processes... [======                                                               ]Scanning processes... [=======                                                              ]Scanning processes... [========                                                             ]Scanning processes... [========                                                             ]Scanning processes... [=========                                                            ]Scanning processes... [=========                                                            ]Scanning processes... [==========                                                           ]Scanning processes... [===========                                                          ]Scanning processes... [===========                                                          ]Scanning processes... [============                                                         ]Scanning processes... [============                                                         ]Scanning processes... [=============                                                        ]Scanning processes... [==============                                                       ]Scanning processes... [==============                                                       ]Scanning processes... [===============                                                      ]Scanning processes... [================                                                     ]Scanning processes... [================                                                     ]Scanning processes... [=================                                                    ]Scanning processes... [=================                                                    ]Scanning processes... [==================                                                   ]Scanning processes... [===================                                                  ]Scanning processes... [===================                                                  ]Scanning processes... [====================                                                 ]Scanning processes... [====================                                                 ]Scanning processes... [=====================                                                ]Scanning processes... [======================                                               ]Scanning processes... [======================                                               ]Scanning processes... [=======================                                              ]Scanning processes... [========================                                             ]Scanning processes... [========================                                             ]Scanning processes... [=========================                                            ]Scanning processes... [=========================                                            ]Scanning processes... [==========================                                           ]Scanning processes... [===========================                                          ]Scanning processes... [===========================                                          ]Scanning processes... [============================                                         ]Scanning processes... [============================                                         ]Scanning processes... [=============================                                        ]Scanning processes... [==============================                                       ]Scanning processes... [==============================                                       ]Scanning processes... [===============================                                      ]Scanning processes... [================================                                     ]Scanning processes... [================================                                     ]Scanning processes... [=================================                                    ]Scanning processes... [=================================                                    ]Scanning processes... [==================================                                   ]Scanning processes... [===================================                                  ]Scanning processes... [===================================                                  ]Scanning processes... [====================================                                 ]Scanning processes... [====================================                                 ]Scanning processes... [=====================================                                ]Scanning processes... [======================================                               ]Scanning processes... [======================================                               ]Scanning processes... [=======================================                              ]Scanning processes... [========================================                             ]Scanning processes... [========================================                             ]Scanning processes... [=========================================                            ]Scanning processes... [=========================================                            ]Scanning processes... [==========================================                           ]Scanning processes... [===========================================                          ]Scanning processes... [===========================================                          ]Scanning processes... [============================================                         ]Scanning processes... [============================================                         ]Scanning processes... [=============================================                        ]Scanning processes... [==============================================                       ]Scanning processes... [==============================================                       ]Scanning processes... [===============================================                      ]Scanning processes... [================================================                     ]Scanning processes... [================================================                     ]Scanning processes... [=================================================                    ]Scanning processes... [=================================================                    ]Scanning processes... [==================================================                   ]Scanning processes... [===================================================                  ]Scanning processes... [===================================================                  ]Scanning processes... [====================================================                 ]Scanning processes... [====================================================                 ]Scanning processes... [=====================================================                ]Scanning processes... [======================================================               ]Scanning processes... [======================================================               ]Scanning processes... [=======================================================              ]Scanning processes... [========================================================             ]Scanning processes... [========================================================             ]Scanning processes... [=========================================================            ]Scanning processes... [=========================================================            ]Scanning processes... [==========================================================           ]Scanning processes... [===========================================================          ]Scanning processes... [===========================================================          ]Scanning processes... [============================================================         ]Scanning processes... [============================================================         ]Scanning processes... [=============================================================        ]Scanning processes... [==============================================================       ]Scanning processes... [==============================================================       ]Scanning processes... [===============================================================      ]Scanning processes... [================================================================     ]Scanning processes... [================================================================     ]Scanning processes... [=================================================================    ]Scanning processes... [=================================================================    ]Scanning processes... [==================================================================   ]Scanning processes... [===================================================================  ]Scanning processes... [===================================================================  ]Scanning processes... [==================================================================== ]Scanning processes... [=====================================================================]Scanning processes...                                                                        
+Scanning candidates... [                                                                    ]Scanning candidates... [=================                                                   ]Scanning candidates... [==================================                                  ]Scanning candidates... [===================================================                 ]Scanning candidates... [====================================================================]Scanning candidates...                                                                       
+Scanning linux images... [                                                                  ]Scanning linux images... [================                                                  ]Scanning linux images... [=================================                                 ]Scanning linux images... [=================================================                 ]Scanning linux images... [==================================================================]Scanning linux images...                                                                     
+
+Pending kernel upgrade!
+Running kernel version:
+  6.8.0-55-generic
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-86-generic.
+
+Restarting the system to load the new kernel will not be handled automatically, so you
+should consider rebooting.
+
+Restarting services...
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# ]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# touchssh -keygen -t ed25519 -f ~/.ssh/russicchjust_keyjust_keyjust_keyjust_keyjust_keyjust_keyjust_keyjust_key >> practice2_part43.lo g
+[?2004lEnter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# gпрgh auth login
+[?2004l7[?25l8? What account do you want to log into?  [Use arrows to move, type to filter]
+> GitHub.com
+  GitHub Enterprise Server
+78[?25h8? What account do you want to log into? GitHub.com
+7[?25l8? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+> HTTPS
+  SSH
+78? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+  HTTPS
+> SSH
+78[?25h8? What is your preferred protocol for Git operations on this host? SSH
+7[?25l8? Upload your SSH public key to your GitHub account?  [Use arrows to move, type to filter]
+> /root/.ssh/just_key.pub
+  Skip
+78[?25h8? Upload your SSH public key to your GitHub account? /root/.ssh/just_key.pub
+? Title for your SSH key: (GitHub CLI) [?25l[?25l78[?25heltexeltex-practice2-pg2-v8[?25h? Title for your SSH key: eltex-practice2-pg2-v8
+7[?25l8? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
+> Login with a web browser
+  Paste an authentication token
+78[?25h8? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: EF3C-E8F3
+Press Enter to open github.com in your browser... 
+! Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+^C
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-practice2-pg2-v8:~# gh auth login
+[?2004l7[?25l8? What account do you want to log into?  [Use arrows to move, type to filter]
+> GitHub.com
+  GitHub Enterprise Server
+78[?25h8? What account do you want to log into? GitHub.com
+7[?25l8? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+> HTTPS
+  SSH
+78? What is your preferred protocol for Git operations on this host?  [Use arrows to move, type to filter]
+  HTTPS
+> SSH
+78[?25h8? What is your preferred protocol for Git operations on this host? SSH
+7[?25l8? Upload your SSH public key to your GitHub account?  [Use arrows to move, type to filter]
+> /root/.ssh/just_key.pub
+  Skip
+78[?25h8? Upload your SSH public key to your GitHub account? /root/.ssh/just_key.pub
+? Title for your SSH key: (GitHub CLI) [?25l[?25l78[?25heltex-practice2-pg2-v8'[?25h? Title for your SSH key: eltex-practice2-pg2-v8'
+7[?25l8? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
+> Login with a web browser
+  Paste an authentication token
+78[?25h8? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 32B4-82CE
+Press Enter to open github.com in your browser... 
+! Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+✓ Authentication complete.
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocol
+! Authentication credentials saved in plain text
+✓ Uploaded the SSH key to your GitHub account: /root/.ssh/just_key.pub
+✓ Logged in as russichjust
+[?2004h]0;root@eltex-practice2-pg2-v8: ~root@eltex-pra
