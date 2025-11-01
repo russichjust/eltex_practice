@@ -1,0 +1,65 @@
+Script started on 2025-10-15 16:36:21+07:00 [TERM="xterm" TTY="/dev/pts/25" COLUMNS="80" LINES="24"]
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ls -a
+[?2004l.   .bash_history  .bashrc  eltex-pg2-v8_part.log  .profile          .viminfo
+..  .bash_logout   .config  .lesshst               report_part1.txt
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ пкуз grep ls
+[?2004l
+
+^C
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ compgen -c | grep ''^'l's'
+[?2004lls
+lsblk
+lsattr
+lscpu
+lsipc
+lsmod
+lsmem
+lspci
+lsinitramfs
+lsns
+lsusb
+lsof
+ls
+lslogins
+lsfd
+lslocks
+lsb_release
+lsirq
+lsblk
+lsattr
+lscpu
+lsipc
+lsmod
+lsmem
+lspci
+lsinitramfs
+lsns
+lsusb
+lsof
+ls
+lslogins
+lsfd
+lslocks
+lsb_release
+lsirq
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ дыls
+[?2004leltex-pg2-v8_part.log  report_part1.txt
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ls 
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ls]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ lsсщьcompgen -cvHIST
+[?2004l[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ compgen HIST-HISTcHISTHISTvHIST HIST
+[?2004lHISTCMD
+HISTCONTROL
+HISTFILE
+HISTFILESIZE
+HISTSIZE
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ echo $HISTSIZE
+[?2004l1000
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ls -d ~/.()c)*
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ ls -d ~/.(c)* (c)*(c)*c)*[c)**]*
+[?2004l/home/eltex-pg2-v8/.config
+[?2004h]0;eltex-pg2-v8@eltex-2025-autumn: ~eltex-pg2-v8@eltex-2025-autumn:~$ [?2004l
+exit

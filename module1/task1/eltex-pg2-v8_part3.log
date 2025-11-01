@@ -1,0 +1,167 @@
+Script started on 2025-10-16 22:59:02+07:00 [TERM="xterm" TTY="/dev/pts/62" COLUMNS="93" LINES="28"]
+[?2004heltex-pg2-v8@eltex-2025-autumn-22:59>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  eltex-pg2-v8_part3.log
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part.log
+2025-011  2025-03   2025-06  2025-09  report_part1.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-22:59>lsscreen -ls[5Pls -1[Kmkdir $(date +%Y)-0{1..12}ls[K -1screen -lsls[K[Klsscreen -ls[5Pls -1[Kmkdir $(date +%Y)-0{1..12}[3Pecho /bin /sbin/*[0-9]*history[KHISTTIMEFORMAT="%D"ls -a[KHISTTIMEFORMAT="%D"[12Phistoryecho /bin /sbin/*[0-9]*mkdir $(date +%Y)-0{1..12}ls[K -1screen -lsls[K[Kscreen -r[Kls
+[?2004lNo Sockets found in /run/screen/S-eltex-pg2-v8.
+
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:00>screen -lsls[Kscreen -ls[5Pls -1[Kmkdir $(date +%Y)-0{1..12}[3Pecho /bin /sbin/*[0-9]*history[KHISTTIMEFORMAT="%D"ls -a[Kmkdir -p /$(date +"%Y-%m")/{0..12}ls -a[Kmkdir -p /$(date +"%Y-%m")/{0..12}[20Pnano ~/.bashrcmkdir -p /$(date +"%Y-%m")/{0..12}ls -a[KHISTTIMEFORMAT="%D"[12Phistoryecho /bin /sbin/*[0-9]*mkdir $(date +%Y)-0{1..12}ls[K -1screen -lsls[Kscreen -ls[Kcs ~
+[?2004lbash: cs: command not found
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>cd ~
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>ls[K[Kscreen -ls
+[?2004lNo Sockets found in /run/screen/S-eltex-pg2-v8.
+
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>screen -S eltex-pg2-v8
+[?2004l[r[m[2J[H[?7h[?1;4;6l[?1049h[22;0;0t[4l[?1h=[0m(B[1;28r[H[2J[H[2J[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>cd ~
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  eltex-pg2-v8_part3.log
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part.log
+2025-011  2025-03   2025-06  2025-09  report_part1.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:01>scrre[K[Kee[K[K[K[K[K[?5h[?5l[?2004l[?1l>[28;1H
+[?1049l[23;0;0t[detached from 2342268.eltex-pg2-v8]
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:02>scrren[K[K[Keen -ls
+[?2004lThere is a screen on:
+	2342268.eltex-pg2-v8	(10/16/2025 11:01:47 PM)	(Detached)
+1 Socket in /run/screen/S-eltex-pg2-v8.
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:02>[Keltex-pg2-v8@eltex-2025-autumn-23:02>cd ~
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:04>[Keltex-pg2-v8@eltex-2025-autumn-23:04>mkdir -p D![K1/D2/D3
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:05>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:05>ls -l
+[?2004ltotal 60
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-01
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-010
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-011
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-012
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-02
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-03
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-04
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-05
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-06
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-07
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-08
+drwxr-xr-x 2 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 22:46 2025-09
+drwxr-xr-x 3 eltex-pg2-v8 eltex-pg2-v8 4096 Oct 16 23:05 D1
+-rw-r--r-- 1 eltex-pg2-v8 eltex-pg2-v8    0 Oct 16 22:59 eltex-pg2-v8_part3.log
+-rw-r--r-- 1 eltex-pg2-v8 eltex-pg2-v8 2742 Oct 15 18:48 eltex-pg2-v8_part.log
+-rw-r--r-- 1 eltex-pg2-v8 eltex-pg2-v8  134 Oct  9 20:43 report_part1.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:05>ls -R
+[?2004l.:
+2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+
+./2025-01:
+
+./2025-010:
+
+./2025-011:
+
+./2025-012:
+
+./2025-02:
+
+./2025-03:
+
+./2025-04:
+
+./2025-05:
+
+./2025-06:
+
+./2025-07:
+
+./2025-08:
+
+./2025-09:
+
+./D1:
+D2
+
+./D1/D2:
+D3
+
+./D1/D2/D3:
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:06>св [K[K[Kcd D![K1/d[KD2
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:08>ls[K[Kcd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:09>ls
+[?2004lD2
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:09>cd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:09>c[Kls
+[?2004l2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:09>cd D![K1?[K/D@[K2
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:10>touch file.txt
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:10>ls
+[?2004lD3  file.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:10>nano file.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;40H(B[0;7m[ Reading... ](B[m[26;39H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2                               file.txt                                        [1;92H(B[m[27d(B[0;7m^G(B[m Help[27;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[27;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;55H(B[0;7m*[92G(B[m[?12l[?25h[2dБ[?25l[?12l[?25hе[?25l[?12l[?25hл[?25l[?12l[?25hя[?25l[?12l[?25h [?25l[?12l[?25hв[?25l[?12l[?25hя[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hа[?25l[?12l[?25hя[?25l[26d[K[?12l[?25h[2;7H[?25l[?12l[?25hб[?25l[?12l[?25hе[?25l[?12l[?25hр[?25l[?12l[?25hе[?25l[?12l[?25hз[?25l[?12l[?25hа[?25l[?12l[?25h [?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25hп[?25l[?12l[?25hо[?25l[?12l[?25hд[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25hП[?25l[?12l[?25hо[?25l[?12l[?25hд[?25l[?12l[?25h [?25l[?12l[?25hм[?25l[?12l[?25hо[?25l[?12l[?25hи[?25l[?12l[?25hм[?25l[?12l[?25h [?25l[?12l[?25hо[?25l[?12l[?25hк[?25l[?12l[?25hн[?25l[?12l[?25hо[?25l[?12l[?25hм[?25l[4d[?12l[?25h[?25l[?12l[?25hП[?25l[?12l[?25hр[?25l[?12l[?25hи[?25l[?12l[?25hн[?25l[?12l[?25hа[?25l[?12l[?25hк[?25l[?12l[?25hр[?25l[?12l[?25hы[?25l[?12l[?25hл[?25l[?12l[?25hа[?25l[?12l[?25hс[?25l[?12l[?25hь[?25l[?12l[?25hс[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hс[?25l[?12l[?25hн[?25l[?12l[?25hе[?25l[?12l[?25hг[?25l[?12l[?25hо[?25l[?12l[?25hм[?25l[?12l[?25h,[?25l[5d[?12l[?25h[?25l[?12l[?25hТ[?25l[?12l[?25hо[?25l[?12l[?25hч[?25l[?12l[?25hн[?25l[?12l[?25hо[?25l[?12l[?25h [?25l[?12l[?25hс[?25l[?12l[?25hе[?25l[?12l[?25hр[?25l[?12l[?25hе[?25l[?12l[?25hб[?25l[?12l[?25hр[?25l[?12l[?25hо[?25l[?12l[?25hм[?25l[?12l[?25h[A[?25l[?12l[?25h[5d[?25l[?12l[?25h.[?25l[26d(B[0;7mSave modified buffer?                                                                        [27;1H Y(B[m Yes[K[28d(B[0;7m N(B[m No  [28;16H (B[0;7m^C(B[m Cancel[K[26;23H[?12l[?25h[?25l[?12l[?25h[?25l[27d(B[0;7m^G(B[m Help[27;24H(B[0;7mM-D(B[m DOS Format[27;47H(B[0;7mM-A(B[m Append[27;70H(B[0;7mM-B(B[m Backup File[28d(B[0;7m^C(B[m Cancel[17G       (B[0;7mM-M(B[m Mac Format[28;47H(B[0;7mM-P(B[m Prepend[28;70H(B[0;7m^T(B[m Browse[26d(B[0;7mFile Name to Write: file.txt(B[m[?12l[?25h[?25l[26;39H[1K (B[0;7m[ Writing... ](B[m[K[1;55H(B[0;7m [92G(B[m[26;39H(B[0;7m[ Wrote 4 lines ](B[m[J[28d[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:13>nan[K[K[Knano file.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;40H(B[0;7m[ Reading... ](B[m[26;39H(B[0;7m[ Read 4 lines ](B[m[H(B[0;7m  GNU nano 7.2                               file.txt                                        [1;92H(B[m[27d(B[0;7m^G(B[m Help[27;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[27;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2dБелая береза[3dПод моим окном[4dПринакрылась снегом,[5dТочно серебром.[2d[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[3d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[26d[K[?12l[?25h[3;8H[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[4d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h,[?25l[?12l[?25h[5d[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h.[?25l[?12l[?25h[6d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5;16H[?25l[?12l[?25h[6d[?25l[?12l[?25h[5;16H[?25l[?12l[?25h[6d[?25l[?12l[?25h[5;16H[?25l[26;35H(B[0;1m[37m[41m[ To suspend, type ^T^Z ][39;49m(B[m[?12l[?25h[5;16H[?25l[26d[J[28d[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:15>ln D1/D2/file.txt D1/D2/D3/link.txt
+[?2004lln: failed to access 'D1/D2/file.txt': No such file or directory
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:15>cd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:16>ls
+[?2004lD2
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:16>cd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:16>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:16>lscd ..[3Plscd ..ln D1/D2/file.txt D1/D2/D3/link.txt
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:16>ln D1/D2?file-D1/D2?filesD1/D2?file D1/D2?file[C[C[C[C[C[C[C[C[C[1Pfile/file[C[C[C[C.txt D1/D2/Dw[K3/symbollink.txt
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:17>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:18>cd D![K1/D2/D3
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:18>ls
+[?2004llink.txt  symbollink.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:18>cat link.txt
+[?2004lБелая береза
+Под моим окном
+Принакрылась снегом,
+Точно серебром.
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:19>ls
+[?2004llink.txt  symbollink.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:19>mv D1[K[K[K[K[Kcd ..[K/D![K1/D2
+[?2004lbash: cd: ./D1/D2: No such file or directory
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>cd ./D1/D2[C/D1/D2[1PD1/D2./D1/D2
+[?2004lbash: cd: ../D1/D2: No such file or directory
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>cd ../D1/D2[C[1P/D23/D2[C[C[C
+[?2004lbash: cd: ../D3/D2: No such file or directory
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>cd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>cd [K[K[Kls
+[?2004lD3  file.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>mv file.txt D1
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>ls
+[?2004lD1  D3
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>cd
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>ls
+[?2004l2025-01   2025-012  2025-04  2025-07  D1		      report_part1.txt
+2025-010  2025-02   2025-05  2025-08  eltex-pg2-v8_part3.log
+2025-011  2025-03   2025-06  2025-09  eltex-pg2-v8_part.log
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:20>m[Kcd D1
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>ls
+[?2004lD2
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>cd D2
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>ls
+[?2004lD1  D3
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>mv D1 file.txt
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>mv D1 file.txt[Kls
+[?2004lD3  file.txt
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:21>m[Kcd ..
+[?2004l[?2004heltex-pg2-v8@eltex-2025-autumn-23:23>ls
+[?2004lD2
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:23>mv D2/file.txt
+[?2004lmv: missing destination file operand after 'D2/file.txt'
+Try 'mv --help' for more information.
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:23>ls
+[?2004lD2
+[?2004heltex-pg2-v8@eltex-2025-autumn-23:23>exit
+[?2004lexit
+
+Script done on 2025-10-16 23:23:33+07:00 [COMMAND_EXIT_CODE="0"]
+mkdir -p D1/D2/D3
