@@ -1,0 +1,17 @@
+Generating public/private ed25519 key pair.
+Your identification has been saved in /root/.ssh/just_key
+Your public key has been saved in /root/.ssh/just_key.pub
+The key fingerprint is:
+SHA256:RxJw9QyTP5SvIZsrcTowrI7hby6kA70nntGRS5jmFzA root@eltex-practice2-pg2-v8
+The key's randomart image is:
++--[ED25519 256]--+
+|      ..o.+. .   |
+|       . ..=o    |
+|  E     . .oo.   |
+|   = .   o. + .  |
+| .+ =.  S .+ +   |
+|.ooo ++ ..+ .    |
+|.o+.+. o + .     |
+|o.+*+   + .      |
+| o=O+    o       |
++----[SHA256]-----+
